@@ -708,12 +708,11 @@ margin-bottom: 24px;
 width: 453px;
 height: 80px;
 display: flex;
-flex-direction: column;
 margin-left: 80px;
 }
-.footer-form-lbl{
-display: flex;
-gap: 24px;
+
+.footer-form:last-child{
+align-items: flex-end;
 }
 .footer-input{
 width: 264px;
@@ -725,9 +724,10 @@ border-radius: 4px;
 outline: none;
 color: var(--main-background-color);
 padding-left: 16px;
+margin-top: 16px;
 }
 .footer-input::placeholder{
-color: color: rgba(255, 255, 255, 0.6);
+color: rgba(255, 255, 255, 0.6);
 font-size: 12px;
 line-height: 2.0;
 letter-spacing: 0.04em;
